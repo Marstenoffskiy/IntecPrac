@@ -1,0 +1,1039 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    height: 117px;
+    align-items: center;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.blueLeft{
+    width: 468px;
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blueRight{
+    max-height: 100%;
+}
+.blueRight button{
+    min-width: 340px;
+    background-color: #194DD2;
+    min-height: 117px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #194DD2;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.blueRight button:hover {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+}
+
+.headerBlack{
+    width: 820px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.headerBlack a{
+    font-size: 18px;
+}
+.headerBlack a:hover {
+    text-decoration: underline;
+}
+
+.mainSection{
+    min-height: 904px;
+    background-image: url(img/mainSection.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+
+}
+.mainBlue{
+    z-index: 3;
+}
+.mainBlue button{
+    width: 468px;
+    background-color: #194DD2;
+    height: 904px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+    border: 1px solid #194DD2;
+}
+.mainBlueButton h1{
+    color: whitesmoke;
+    font-size: 36px;
+    text-align:center;
+}
+.mainBlueButton p{
+    color: whitesmoke;
+    font-size: 75px;
+}
+
+.mainBlue button:hover {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #333;
+}
+.mainText{
+    width: 1218px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 111px;
+}
+
+.mainText h1{
+
+    font-size: 52px;
+    padding-bottom: 52px;
+
+}
+.mainText p{
+    font-size: 22px;
+    padding-bottom: 67px;
+}
+.mainSlider{
+display: flex;
+flex-direction: column;
+}
+.mainSlider a{
+    max-height: 25px;
+    font-size: 60px;
+}
+
+.mainButton {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding:16px 39px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.mainButton:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+.mainButton a{
+
+    font-size: 18px;
+}
+.sectionWork{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1254px;
+}
+.workContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1480px;
+}
+.workDescription{
+    display: flex;
+}
+.workImg{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    max-width: 650px;
+   
+}
+.workImg > div:first-child{
+
+    padding-right: 23px;
+    padding-bottom: 20px;
+}
+.workText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 90px;
+}
+.workText h1{
+    font-size: 42px;
+    color: #141B46;
+}
+.workText p{
+
+    font-size: 18px;
+    color: black;
+    padding-bottom: 66px;
+}
+.workImg h1{
+    font-size: 42px;
+}
+.workCards{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.workCard{
+    max-width: 473px;
+    min-height: 408px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 65px 39px;
+    margin: 20px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.wordCardHeader{
+    display: flex;
+    align-items: center;
+    max-height: 44px;
+}
+.workCard h1{
+    
+    padding-left: 30px;  
+    font-size: 18px;
+    border-left: 3px solid #E3E3E3;
+    transition: color 0.3s ease;
+}
+.workCard img{
+
+    padding-right: 30px;
+    transition: color 0.3s ease;
+}
+.workCard p{
+    padding-top: 42px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+.workCard:hover {
+    transform: scale(1.1);
+}
+
+.workCard:hover {
+    filter: none;
+}
+
+.workCards:hover .workCard {
+    filter: grayscale(100%);
+}
+
+.workCards:hover .workCard:hover {
+    filter: none;
+}
+
+.blueBox h1{
+    display: flex;
+    text-align: left;
+    align-items: flex-end;
+    margin-top: auto;
+    border: 1rem solid #194DD2;
+    border-radius: 10px;
+    background-color: #194DD2;
+    max-width: 302px;
+    min-height: 327px;
+    color: white;
+}
+
+.workButton {
+    background-color: #0A51CB;
+    border: 2px solid #0A51CB;
+    padding:16px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.workButton:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+.workButton a{
+
+    font-size: 18px;
+}
+.sectionInvestment{
+
+    background-color: #1A1A1A;
+}
+.investmentContainer{
+    display: flex;
+    align-items: center;
+}
+.investmentImgtxt{
+    display: flex;
+    align-items: center;
+
+}
+.investmentDescriptionOne{
+    display: flex;
+    flex-direction: column;
+    max-width: 493px;
+    padding-left: 112px;
+
+
+}
+.investmentImgtxt h1{
+    color: white;
+    font-size: 42px;
+    position: relative;
+}
+.investmentImgtxt h1{
+    padding-bottom: 123px;
+    color: white;
+    font-size: 42px;
+    position: relative;
+}
+.investmentImgtxt h1::before {
+    content: ''; 
+    position: absolute;
+    width: 65px;
+    border-radius: 1px;
+    bottom: 70px; 
+    border: 1px solid rgb(255, 255, 255); 
+  }
+
+.DescriptionTxt{
+    padding-bottom: 47px;
+    
+}
+.DescriptionTxt h1{
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: white;
+}
+.DescriptionTxt p{
+    font-size: 18px;
+    color: white;
+    
+}
+.investmentCircleTxt{
+    display: flex;
+
+
+    padding-left: 141px;
+
+}
+.circles{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.circle {
+    display: inline-block;
+    width: 85px;
+    height: 85px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 36px;
+    color: #194DD2;
+    background-color: white;
+    border: 2px solid white; 
+
+  }
+.circle:nth-child(2){
+    color: white;
+    background-color: #194DD2;
+    border: 2px solid #194DD2; 
+}
+.investmentDescriptionTwo{
+
+    padding-left: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.investmentButton {
+    background-color: #0A51CB;
+    border: 2px solid #0A51CB;
+    padding:17px 40px;
+    border-radius: 50px;
+    max-width: 280px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.investmentButton:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+.sectionPlus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1014px;
+}
+.plusContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1480px;
+    align-items: center;
+}
+.plusSecondTxt h1{
+    color: #133F8D;
+    font-size: 18px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.plusSecondTxt h1::before {
+    content: ''; 
+    position: absolute;
+    width: 65px;
+    border-radius: 1px;
+    bottom: 15px;
+    right:65px;
+    border: 1px solid #194DD2;
+  }
+.plusMainTxt h1{
+    font-size: 42px;
+    padding-bottom: 109px;
+}
+.plusCards{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.plusCard{
+    padding-bottom: 35px;
+    display: flex;
+    max-width: 710px;
+    align-items: flex-start;
+}
+.plusHeader{
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.plusHeader h1{
+    padding-bottom: 35px;
+    font-size: 18px;
+    position: relative;
+}
+.plusHeader h1::before {
+    content: ''; 
+    position: absolute;
+    width: 36px;
+    border-radius: 1px;
+    bottom: 15px;
+    border: 1px solid #194DD2;
+  }
+.plusHeader h1 p{
+    font-size: 18px;
+}
+
+.plusButton{
+    background-color: transparent;
+    border: 2px solid #002C54;
+    color: black;
+    padding:16px 39px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+
+.plusButton:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+.plusButtons{
+    padding-top: 97px;
+}
+.sectionStats{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/statsBack.png);
+    min-height: 728px;
+}
+.statsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.statsMainTxt h1{
+    color: white;
+    font-size: 42px;
+    position: relative;
+}
+.statsMainTxt h1::before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    border-radius: 1px;
+    bottom: -20px;
+    right: 200px;
+    border: 1px solid #ffffff;
+  }
+.statsCards{
+    display: flex;
+}
+.statsCard{
+    display: flex;
+    flex-direction: column;
+
+    padding: 100px;
+}
+.statsCard h1{
+    color: white;
+    font-size: 64px;
+    position: relative;
+}
+.statsCard h1::before {
+    content: '';
+    position: absolute;
+    width: 290px;
+    border-radius: 1px;
+    bottom: 10px;
+
+    border: 1px solid #ffffff;
+}
+.statsButtonOne {
+    margin: 15px;
+    background-color: #0A51CB;
+    border: 2px solid #0A51CB;
+    padding:17px 40px;
+    border-radius: 50px;
+    max-width: 280px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.statsButtonOne:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+.statsButtonTwo {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding:16px 39px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.statsButtonTwo:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+.statsCard p{
+    color: white;
+    font-size: 18px;
+}
+
+.sectionStartUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1014px;
+}
+
+.startupContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1480px;
+    align-items: center;
+}
+.startupSecondTxt h1{
+    padding-bottom: 50px;
+    color: #133F8D;
+    font-size: 18px;
+    position: relative;
+}
+.startupSecondTxt h1::before {
+    content: ''; 
+    position: absolute;
+    width: 65px;
+    border-radius: 1px;
+    bottom: 15px;
+    right:160px;
+    border: 1px solid #194DD2;
+  }
+.startupMainTxt h1{
+    padding-bottom: 111px;
+    font-size: 42px;
+}
+.startupCards{
+    display: flex;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.startupCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    padding: 90px 26px;
+}
+.startupCard p{
+    font-size: 18px;
+    color: #194DD2;
+    padding: 9px;
+    transition: color 0.3s ease;
+}
+.startupCard h1{
+    font-size: 21px;
+    color: black;
+    transition: color 0.3s ease;
+}
+.startupCard img{
+    max-width: 64px;
+    transition: transform 0.3s ease;
+}
+
+.startupCard:hover {
+    transform: scale(1.1);
+}
+
+.startupCard:hover {
+    filter: none;
+}
+
+.startupCards:hover .startupCard {
+    filter: grayscale(100%);
+}
+
+.startupCards:hover .startupCard:hover {
+    filter: none;
+}
+
+
+.sectionBet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 1254px;
+}
+.betContainer{
+    display: flex;
+    flex-direction: column;
+    max-width: 1480px;
+}
+.betDescription{
+    display: flex;
+}
+.betImg{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: flex-end; */
+    max-width: 730px;
+   
+}
+.betImg > div:first-child{
+
+    padding-right: 23px;
+    padding-bottom: 20px;
+}
+.betText{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    max-width: 669px;
+    justify-content: space-around;
+}
+.betHTwo{
+    font-size: 42px;
+    color: #141B46;
+}
+.betHOne{
+    font-size: 18px;
+    font-style: bold;
+}
+.betText p{
+
+    font-size: 18px;
+    color: black;
+
+}
+.betImg h1{
+    font-size: 42px;
+}
+.betCards{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.betCard{
+    max-width: 473px;
+    min-height: 408px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 65px 39px;
+}
+.betCardHeader{
+    display: flex;
+    align-items: center;
+    max-height: 44px;
+}
+.betCard h1{
+    
+    padding-left: 30px;  
+    font-size: 18px;
+
+
+    border-left: 3px solid #E3E3E3;
+}
+.betCard img{
+
+    padding-right: 30px;
+
+}
+.betCard p{
+    padding-top: 42px;
+    font-size: 18px;
+}
+
+.blueBox h1{
+    display: flex;
+    text-align: left;
+    align-items: flex-end;
+    margin-top: auto;
+    border: 1rem solid #194DD2;
+    border-radius: 10px;
+    background-color: #194DD2;
+    max-width: 302px;
+    min-height: 327px;
+    color: white;
+}
+
+.betButton {
+    background-color: #0A51CB;
+    border: 2px solid #0A51CB;
+    padding:16px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.betButton:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+.betButton a{
+
+    font-size: 18px;
+}
+.betTxtA a{
+    color:#0A51CB;
+}
+.betTxtA a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+.sectionHow{
+    display: flex;
+    justify-content: center;
+}
+.howContainer{
+    display: flex;
+    max-width: 1480px;
+
+    justify-content: center;
+}
+.howDescription{
+    display: flex;
+    max-width: 600px;
+}
+.howImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.howImg > div:first-child{
+
+    padding-right: 23px;
+    padding-bottom: 20px;
+}
+.howText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.howText h1{
+    font-size: 42px;
+    color: #141B46;
+    position: relative;
+}
+.howText h1::before {
+    content: ''; 
+    position: absolute;
+    width: 65px;
+    border-radius: 1px;
+    bottom: -24px;
+
+    border: 1px solid #194DD2;
+  }
+.howText p{
+
+    font-size: 18px;
+    color: black;
+    padding-bottom: 15px;
+}
+.howTxtA a{
+    color: #194DD2;
+}
+.howText a:hover{
+    text-decoration: underline;
+}
+.howImg h1{
+    font-size: 42px;
+}
+.howCards{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.howCard{
+    max-width: 473px;
+    min-height: 408px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 65px 39px;
+}
+.howCardHeader{
+    display: flex;
+    align-items: center;
+    max-height: 44px;
+}
+.howCard h1{
+    
+    padding-left: 30px;  
+    font-size: 18px;
+
+
+    border-left: 3px solid #E3E3E3;
+}
+.howCard img{
+
+    padding-right: 30px;
+
+}
+.howCard p{
+    padding-top: 42px;
+    font-size: 18px;
+}
+
+.blueBox h1{
+    display: flex;
+    text-align: left;
+    align-items: flex-end;
+    margin-top: auto;
+    border: 1rem solid #194DD2;
+    border-radius: 10px;
+    background-color: #194DD2;
+    max-width: 302px;
+    min-height: 327px;
+    color: white;
+}
+
+.howButton {
+    color: white;
+    background-color: #0A51CB;
+    border: 2px solid #0A51CB;
+    padding:16px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.howButton:hover {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+}
+.howButton a{
+
+    font-size: 18px;
+}
+
+
+.sectionQuest {
+    display: flex;
+    justify-content: center;
+    min-height: 1254px;
+}
+.questContainer{
+    display: flex;
+    max-width: 1480px;
+    flex-direction: column;
+    justify-content: center;
+}
+.questH h1 {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 115px;
+    position: relative;
+}
+.questH h1::before {
+    content: ''; 
+    position: absolute;
+    width: 65px;
+    border-radius: 1px;
+    bottom: -24px;
+    left: 700px;
+    border: 1px solid #194DD2;
+  }
+.questDescrip {
+    display: flex;
+    justify-content: space-between;
+}
+.questCards {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.questCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.questCard:hover {
+    background-color: #e0e0e0;
+}
+.questCard img {
+    margin-right: 10px;
+}
+.questCard p {
+
+    font-size: 14px;
+}
+.questBlueBox {
+    min-height: 420px;
+    display: flex;
+    background-color: #0056b3;
+    color: #fff;
+    padding: 20px;
+    width: 45%;
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: center;
+}
+.questBlueBox h1{
+    font-size: 36px;
+    /* margin-bottom: 10px; */
+    padding-bottom: 84px;
+    position: relative;
+}
+.questBlueBox h1::before {
+    content: ''; 
+    position: absolute;
+    width: 65px;
+    border-radius: 1px;
+    bottom: 50px;
+    /* left: 700px; */
+    border: 1px solid white;
+  }
+.questBlueBox p {
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #000;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #fff;
+}
+footer div {
+    max-width: 300px;
+}
+footer p, footer a {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    margin: 0 0 10px;
+}
+footer h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.footerNav, .footerContact {
+    display: flex;
+    flex-direction: column;
+}
+.footerNavcards{
+    display: flex;
+}
+ .footerContactcards {
+    display: flex;
+    flex-direction: column;
+}
+.footerCard{
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+.footerNumber{
+    padding-bottom: 15px;
+}
